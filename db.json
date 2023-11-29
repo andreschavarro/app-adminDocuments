@@ -1,0 +1,77 @@
+{
+  "user": [
+    {
+      "id": "",
+      "name": "",
+      "password": "",
+      "email": "",
+      "gender": "",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "Gn@s.XBzd9c4H87",
+      "email": "pipe@gmail.com",
+      "gender": "male",
+      "role": "quality",
+      "isactive": true
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "Gn@s.XBzd9c4H87",
+      "email": "pipe@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "Gn@s.XBzd9c4H87",
+      "email": "pipe@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "Gn@s.XBzd9c4H87",
+      "email": "pipe@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "Gn@s.XBzd9c4H87",
+      "email": "pipe@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "Gn@s.XBzd9c4H87",
+      "email": "pipe@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "staff",
+      "name": "staff"
+    },
+    {
+      "code": "quality",
+      "name": "Quality"
+    }
+  ]
+}
