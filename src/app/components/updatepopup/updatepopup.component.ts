@@ -31,23 +31,11 @@ export class UpdatepopupComponent implements OnInit {
 
 
   UpdateUser() {
-    console.log('Form value:', this.registerform.value);
-    if (this.registerform.valid) {
-      this.service.Updateuser(this.registerform.value.id, this.registerform.value).subscribe(res => {
-        this.toastr.success('Actualizado exitosamente.');
-        this.dialog.close();
-      });
-    } else {
-      const roleControl = this.registerform.get('role');
-
-      if (roleControl && roleControl.hasError('required')) {
-        console.log('Role control has required error.');
-        this.toastr.warning('Por favor, selecciona un Rol ome gonorrea.');
-      } else {
-        console.log('Other form validation errors.');
-        this.toastr.warning('Por favor, completa todos los campos obligatorios.');
-      }
-    }
+    this.service.Updateuser(this.registerform.value.id, this.registerform.value).subscribe(res => {
+      this.toastr.success('Updated successfully.');
+      this.dialog.close();
+      console.log(this.rolelist)
+    });
   }
 
 

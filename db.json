@@ -1,66 +1,30 @@
 {
   "user": [
     {
-      "id": "",
-      "name": "",
-      "password": "",
-      "email": "",
-      "gender": "",
-      "role": "",
+      "id": "ferderico",
+      "name": "federico",
+      "password": "mdzT9u@tpRP5p6!",
+      "email": "fed@gmail.com",
+      "gender": "male",
+      "role": "staff",
       "isactive": true
     },
     {
       "id": "admin",
       "name": "admin",
-      "password": "Gn@s.XBzd9c4H87",
-      "email": "pipe@gmail.com",
+      "password": "mdzT9u@tpRP5p6!",
+      "email": "admin@gmial.com",
       "gender": "male",
-      "role": "quality",
+      "role": "staff",
       "isactive": true
     },
     {
-      "id": "admin",
-      "name": "admin",
-      "password": "Gn@s.XBzd9c4H87",
-      "email": "pipe@gmail.com",
+      "id": "rakesh",
+      "name": "Rakesh",
+      "password": "Rk@in1234",
+      "email": "admin@gmial.com",
       "gender": "male",
-      "role": "",
-      "isactive": true
-    },
-    {
-      "id": "admin",
-      "name": "admin",
-      "password": "Gn@s.XBzd9c4H87",
-      "email": "pipe@gmail.com",
-      "gender": "male",
-      "role": "",
-      "isactive": true
-    },
-    {
-      "id": "admin",
-      "name": "admin",
-      "password": "Gn@s.XBzd9c4H87",
-      "email": "pipe@gmail.com",
-      "gender": "male",
-      "role": "",
-      "isactive": true
-    },
-    {
-      "id": "admin",
-      "name": "admin",
-      "password": "Gn@s.XBzd9c4H87",
-      "email": "pipe@gmail.com",
-      "gender": "male",
-      "role": "",
-      "isactive": true
-    },
-    {
-      "id": "admin",
-      "name": "admin",
-      "password": "Gn@s.XBzd9c4H87",
-      "email": "pipe@gmail.com",
-      "gender": "male",
-      "role": "",
+      "role": "staff",
       "isactive": true
     }
   ],

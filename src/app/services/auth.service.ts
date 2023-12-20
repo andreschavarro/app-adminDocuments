@@ -26,7 +26,7 @@ export class AuthService {
     return this.http.post(this.apiurl,inputdata)
   }
 
-  Updateuser(code: any, inputdata: any) {
+  Updateuser(code: any, inputdata: any) {     // aqui teniamos un error por ponerle al update el tipo POST se le tenia que poner PUT
     return this.http.put(this.apiurl + '/' + code, inputdata);
   }
 

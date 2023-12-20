@@ -312,9 +312,9 @@
   />
   <span>Welcome</span>
   <a routerLink="" style="margin: 20px; color: white;">Home</a>
-  <a routerLink="/user" style="margin: 10px; color: white;">User</a>
+  <a *ngIf="isadminuser" routerLink="/user" style="margin: 10px; color: white;">User</a>
     <div class="spacer"></div>
-      <a routerLink="/user" style="margin: 20px; color: white;">Logout</a>
+      <a routerLink="/login" style="margin: 20px; color: white;">Logout</a>
 </div>
 
 <div class="content"style="width: 100%; display: block;" role="main">
